@@ -1,3 +1,1 @@
-This project is a basic Linked List application
-
-----Still need to work on searching for integers---
+This project is a basic Linked List application with a search for integer in Linked List function.
