@@ -28,7 +28,7 @@ class linkedList {
 		System.out.print("Enter Searching number: ");
 		Scanner sc = new Scanner(System.in); 
 		int number = sc.nextInt(); 
-		System.out.println("You entered: " + number);
+		System.out.println("Integer Entered: " + number);
 
         Random r = new Random();
 		for (int i = 1; i <= 10; i++) {
@@ -36,6 +36,12 @@ class linkedList {
 			
 		}
 		
+		if (newLinkedList.equals(sc))
+			System.out.println("Integer Entered Exists in Array List");
+		
+		else
+			System.out.println("Integer Does not Exist in Array List");
+			
 		System.out.println("Linked List: " + newLinkedList);
 		System.out.println("Size of Linked List: " + newLinkedList.size());
 
